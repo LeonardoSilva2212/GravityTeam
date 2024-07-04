@@ -200,3 +200,72 @@ body {
     text-align: center;
     margin-top: 20px;
 }
+
+.background-blur-2{
+    position: absolute;
+    z-index: 1;
+    filter: blur(50px);
+    width: 100%;
+    height: 100%;
+    margin-bottom: 300px;
+}
+
+.finish-body{
+    display: flex;
+    margin-top: 100px;
+}
+
+.finish-body h1{
+    font-size: 40px;
+    color: white;
+    margin-left: 200px;
+    text-align: left;
+}
+
+.finish-body p{
+    color: white;
+    margin-left: 220px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.finish-body-2{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.background-blur-3{
+    position: absolute;
+    z-index: 1;
+    filter: blur(00px);
+    width: 100%;
+    height: 100%;
+    margin-bottom: 300px;
+}
+
+.finish-body-2{
+    color: white;
+}
+
+.finish-body-2 h1{
+    font-size: 44px;
+}
+
+.finish-body-2 p{
+    margin-left: 270px;
+    margin-right: 270px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.finish-body-2 button {
+    margin-top: 25px;
+    padding: 10px;
+    font-size: 15px;
+    background: linear-gradient(to bottom right, #665DCD, #5FA4E6, #D2AB67);
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    color: white; /* Adiciona uma cor ao texto */
+    cursor: pointer;
+}

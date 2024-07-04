@@ -6,7 +6,10 @@ import homePackImg2 from "../assets/images/homePack-img2.svg";
 import homePackImg3 from "../assets/images/homePack-img-3.svg";
 import homePackImg4 from "../assets/images/homePack-img-3-2.svg";
 import homePackImg3Back from "../assets/images/homePack-img3-back.svg";
+import backgroundImgBlur from "../assets/images/backgroundImgBlur.svg";
+import backgroundBlurLow from "../assets/images/backgroundBlur-low.svg";
 import Carousel from "../components/Carousel";
+
 
 function Home() {
     return (
@@ -93,6 +96,37 @@ function Home() {
             </section>
             <section className="low-body-area">
                 <Carousel />
+            </section>
+
+            <section className="finish-body">
+                <h1>Join Gravity Team</h1>
+                <div className="background-blur-2">
+                    <img src={backgroundImgBlur} alt="" />
+                </div>
+                <p>
+                   Join our community of innovators, problem solvers and owners who 
+                   apply scientific discovery techniques to make crypto markets a better place for everyone.
+                   <br /><br />
+                   As we emphasize it in our name – Gravity Team, we are a team. 
+                   A team of bright, talented people, each masters of their specialty, 
+                   curious about the world and eager to solve the new exciting cryptocurrency market problems, 
+                   build cool stuff and have fun whilst doing so!
+                </p>
+            </section>
+
+            <section className="finish-body-2">
+                <h1>Contact Us</h1>
+                <div className="background-blur-3">
+                    <img src={backgroundBlurLow} alt="" />
+                </div>
+                   <p>
+                   We are always open to discuss new value-adding partnerships. Do reach 
+                   out if you are an exchange or a project looking for liquidity; an algorithmic 
+                   trader or a software developer looking to improve the markets with us or 
+                   just have a great idea you can’t wait to share with us!
+                   </p>
+
+                   <button>Get in Touch</button>
             </section>
         </main>
     );
